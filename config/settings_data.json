@@ -12,7 +12,7 @@
     "type_header_font": "serif",
     "type_header_base_size": 16,
     "type_base_font": "serif",
-    "type_base_size": 11,
+    "type_base_size": 14,
     "sections": {
       "header": {
         "type": "header",
@@ -24,7 +24,7 @@
           "home_page_only": true,
           "message_text": "POUP SHOP SCHEDULE",
           "message_link": "shopify:\/\/blogs\/お知らせ",
-          "color_bg": "#EA0606",
+          "color_bg": "#ea0606",
           "color_text": "#ffffff"
         }
       },
