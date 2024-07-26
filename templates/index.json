@@ -100,40 +100,6 @@
         "button_link": ""
       }
     },
-    "quotes": {
-      "type": "quotes",
-      "blocks": {
-        "quotes-0": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-1": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-2": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "quotes-0",
-        "quotes-1",
-        "quotes-2"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "image-bar": {
       "type": "image-bar",
       "blocks": {
@@ -167,6 +133,7 @@
         "image-bar-1",
         "image-bar-2"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "medium"
       }
@@ -178,7 +145,6 @@
     "feature-columns",
     "collection",
     "hero-2",
-    "quotes",
     "image-bar"
   ]
 }
