@@ -137,8 +137,8 @@
         "type": "range",
         "id": "type_header_base_size",
         "label": "t:settings_schema.typography.settings.type_header_base_size.label",
-        "default": 26,
-        "min": 20,
+        "default": 20,
+        "min": 14,
         "max": 36,
         "step": 1,
         "unit": "px"
@@ -157,8 +157,8 @@
         "type": "range",
         "id": "type_base_size",
         "label": "t:settings_schema.typography.settings.type_base_size.label",
-        "default": 15,
-        "min": 14,
+        "default": 11,
+        "min": 8,
         "max": 20,
         "step": 1,
         "unit": "px"
