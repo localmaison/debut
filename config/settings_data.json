@@ -23,7 +23,7 @@
           "message": true,
           "home_page_only": true,
           "message_text": "POUP SHOP SCHEDULE",
-          "message_link": "shopify:\/\/blogs\/お知らせ",
+          "message_link": "shopify:\/\/pages\/popup-shop-list",
           "color_bg": "#ea0606",
           "color_text": "#ffffff"
         }
