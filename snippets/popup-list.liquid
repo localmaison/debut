@@ -1,0 +1,175 @@
+<style>
+  .accordion_container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .accordion_title {
+    font-weight: bold;
+    padding: 20px 5%;
+    text-align: left;
+    position: relative;
+    z-index: +1;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border-bottom: 1px solid #000;
+  }
+  .accordion_container:nth-of-type(2) .accordion_title {
+  }
+  .accordion_container:nth-of-type(3) .accordion_title {
+  }
+  .accordion_title:hover {
+    opacity: 0.8;
+  }
+  .accordion_icon_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    box-sizing: border-box;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition-duration: 0.2s;
+  }
+  .accordion_icon {
+    display: block;
+    width: 18px;
+    height: 18px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition-duration: 0.2s;
+    position: relative;
+  }
+  .accordion_title.open .accordion_icon_wrap {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+  .accordion_icon:before,
+  .accordion_icon:after {
+    display: flex;
+    content: '';
+    background-color: #666;
+    border-radius: 10px;
+    width: 18px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: center center;
+  }
+  .accordion_icon:before {
+    width: 4px;
+    height: 18px;
+    top: 0;
+    left: 7px;
+  }
+  .accordion_title.open .accordion_icon_wrap .accordion_icon:before {
+    content: none;
+  }
+  .accordion_title.open .accordion_icon_wrap .accordion_icon:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .accordion_inner {
+    display: none;
+    padding: 20px 4em;
+    border-bottom: 2px solid #000;
+    box-sizing: border-box;
+  }
+  .accordion_container:nth-of-type(2) .accordion_inner {
+    border-left: 2px solid #dc143c;
+    border-right: 2px solid #dc143c;
+    border-bottom: 2px solid #dc143c;
+  }
+  .accordion_container:nth-of-type(3) .accordion_inner {
+    border-left: 2px solid #4682b4;
+    border-right: 2px solid #4682b4;
+    border-bottom: 2px solid #4682b4;
+  }
+  .ac_inner_wraper {
+    height: 100%;
+  }
+  p.txt_a_ac {
+    margin: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .accordion_title {
+      font-size: 18px;
+    }
+    .accordion_icon_wrap {
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .accordion_title {
+      font-size: 16px;
+      text-align: left;
+      padding: 15px 60px 15px 15px;
+    }
+  }
+</style>
+
+<div class="page-width" style="min-height:100vh">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <div class="rte">
+        {% assign blog_handle = 'お知らせ' %}
+        {% assign blog = blogs[blog_handle] %}
+        {% assign current_date = 'now' | date: '%s' %}
+        {% assign now_time = 'now' | date: '%y/%m/%d' %}
+        <div class="tw-text-lg	tw-font-extrabold tw-text-center tw-border-b-2 tw-border-black tw-mb-3">
+          TODAY:{{ now_time }}
+        </div>
+        {% if blog != blank %}
+          {% for article in blog.articles %}
+            {% assign custom_date0 = article.metafields.custom._period.value[0] %}
+            {% assign custom_date1 = article.metafields.custom._period.value[1] %}
+            {% assign custom_date1s = article.metafields.custom._period.value[1] | date: '%s' %}
+            <div class="accordion">
+              <div class="accordion_container">
+                <div class="accordion_title js-accordion_title">
+                  {% if custom_date1s < current_date %}
+                    <s> {{ article.title }}|{{ custom_date0 | date: '%m/%d' }} - {{ custom_date1 | date: '%m/%d' }}</s>
+                  {% else %}
+                    {{ article.title }}|{{ custom_date0 | date: '%m/%d' }} - {{ custom_date1 | date: '%m/%d' }}
+                  {% endif %}
+                  <div class="accordion_icon_wrap"><i class="accordion_icon"></i></div>
+                </div>
+                <div class="accordion_inner js-accordion_inner">
+                  <div class="ac_inner_wraper">{{ article.content }}</div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>ブログ記事が見つかりませんでした。</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(function () {
+    // .js-accordion_titleをクリックすると
+    $('.js-accordion_title').click(function () {
+      // クリックした次の要素を展開
+      $(this).next('.js-accordion_inner').slideToggle();
+      // 展開するときjs-accordion_titleクラスにopenクラスを追加してアイコンを回転
+      $(this).toggleClass('open');
+    });
+  });
+</script>
