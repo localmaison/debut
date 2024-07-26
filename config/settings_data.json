@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "type_header_font": "serif",
-    "type_header_base_size": 16,
-    "type_base_font": "serif",
+    "type_header_font": "sans-serif",
+    "type_header_base_size": 21,
+    "type_base_font": "sans-serif",
     "type_base_size": 14,
     "sections": {
       "header": {
