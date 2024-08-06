@@ -30,10 +30,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_2045.jpg",
+            "title": "LILOU&LILY(リルアンドリリー）",
+            "text": "<p>AGEでファッションをとらえる事無く、ボーダーレスで独創的な洋服を。<br\/>架空の主人公フランス人のLILOUとアメリカ人のLILYが日本での生活の中で新しい価値観を<br\/>探しながら洋服屋をはじめました。<br\/>1から素材を作ってみたり、落書きを刺繍にしてみたり、小さな釜で染めてみたり。<br\/>LILOUとLILYが気に入ったものだけ。<\/p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/lilou-lily"
           }
         },
         "feature-columns-2": {
