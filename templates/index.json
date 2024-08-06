@@ -18,7 +18,7 @@
         "hero_size": "large",
         "text_size": "large",
         "title": "2024AW",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "text": "<p>Check out our new collection<\/p>",
         "button_label": "",
         "button_link": ""
       }
@@ -45,7 +45,7 @@
             "title": "A VIEW FROM HERE(ア・ビュー・フロム・ヒアー）",
             "text": "<p>「ここから見える景色」を、本来の素晴らしい景色へと取り戻すために。<br\/>今や失われつつある手仕事や伝統工芸・フェアトレードを中心につくる側が責任をもってモノを作る。<br\/>私たちが目指す思いを託したブランド名、 “A VIEW FROM HERE（アビューフロムヒアー）＝ここからの眺め”。<br\/>心の底から清々しく「こんなにも快適で、ゆるやかです。」と謳うことが出来る世界。<br\/>実際に服を身に着ける人にとっても快適で、心の底からゆるやかな気持ちになれる。<br\/>ゆるやかな生活を、ともに纏う。<\/p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/aviewfromhere"
           }
         },
         "feature-columns-1": {
