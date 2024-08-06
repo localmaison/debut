@@ -41,8 +41,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "image": "shopify:\/\/shop_images\/IMG_5152.jpg",
+            "title": "A VIEW FROM HERE(ア・ビュー・フロム・ヒアー）",
+            "text": "<p>「ここから見える景色」を、本来の素晴らしい景色へと取り戻すために。<br\/>今や失われつつある手仕事や伝統工芸・フェアトレードを中心につくる側が責任をもってモノを作る。<br\/>私たちが目指す思いを託したブランド名、 “A VIEW FROM HERE（アビューフロムヒアー）＝ここからの眺め”。<br\/>心の底から清々しく「こんなにも快適で、ゆるやかです。」と謳うことが出来る世界。<br\/>実際に服を身に着ける人にとっても快適で、心の底からゆるやかな気持ちになれる。<br\/>ゆるやかな生活を、ともに纏う。<\/p>",
             "button_label": "",
             "button_link": ""
           }
