@@ -23,6 +23,50 @@
         "button_link": ""
       }
     },
+    "feature-columns": {
+      "type": "feature-columns",
+      "blocks": {
+        "feature-columns-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "feature-columns-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "feature-columns-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature-columns-0",
+        "feature-columns-2",
+        "feature-columns-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left"
+      }
+    },
     "feature-row": {
       "type": "feature-row",
       "disabled": true,
@@ -96,58 +140,14 @@
       "settings": {
         "section_height": "medium"
       }
-    },
-    "feature-columns": {
-      "type": "feature-columns",
-      "blocks": {
-        "feature-columns-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "feature-columns-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "feature-columns-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "feature-columns-0",
-        "feature-columns-2",
-        "feature-columns-1"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left"
-      }
     }
   },
   "order": [
     "hero-1",
+    "feature-columns",
     "feature-row",
     "collection",
     "hero-2",
-    "image-bar",
-    "feature-columns"
+    "image-bar"
   ]
 }
