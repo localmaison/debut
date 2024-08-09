@@ -8,9 +8,6 @@
 * ------------------------------------------------------------
 */
 {
-  "order": [
-    "main"
-  ],
   "sections": {
     "main": {
       "type": "collection-template",
@@ -24,5 +21,8 @@
         "tags_enable": true
       }
     }
-  }
+  },
+  "order": [
+    "main"
+  ]
 }
