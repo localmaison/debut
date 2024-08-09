@@ -689,8 +689,9 @@
         scripts.parentNode.insertBefore(polyfill, scripts);
       }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script>
+    {{ '//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' | script_tag }}
+    {{ '//cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js' | script_tag }}
+    {{ '//unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js' | script_tag }}
     {{ content_for_header }}
   </head>
 
