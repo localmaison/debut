@@ -35,6 +35,12 @@
           "settings": {
           }
         },
+        "custom_liquid_hnze7j": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"cms-wrapper\" style=\"visibility: hidden\">\n          <div id=\"products-cms\"><\/div>\n        <\/div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -44,21 +50,15 @@
           "type": "share",
           "settings": {
           }
-        },
-        "custom_liquid_hnze7j": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div id=\"cms-wrapper\" style=\"visibility: hidden\">\n          <div id=\"products-cms\"><\/div>\n        <\/div>"
-          }
         }
       },
       "block_order": [
         "title",
         "price",
         "buttons",
+        "custom_liquid_hnze7j",
         "description",
-        "share",
-        "custom_liquid_hnze7j"
+        "share"
       ],
       "settings": {
         "show_quantity_selector": false,
