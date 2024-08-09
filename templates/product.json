@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "product-recommendations": {
@@ -35,6 +44,12 @@
           "type": "share",
           "settings": {
           }
+        },
+        "custom_liquid_hnze7j": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"cms-wrapper\" style=\"visibility: hidden\">\n          <div id=\"products-cms\"><\/div>\n        <\/div>"
+          }
         }
       },
       "block_order": [
@@ -42,7 +57,8 @@
         "price",
         "buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_hnze7j"
       ],
       "settings": {
         "show_quantity_selector": false,
