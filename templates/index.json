@@ -89,7 +89,7 @@
         "grid": 4,
         "rows": 4,
         "show_vendor": false,
-        "show_view_all": false
+        "show_view_all": true
       }
     },
     "hero-2": {
