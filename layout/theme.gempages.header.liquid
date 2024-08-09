@@ -690,8 +690,6 @@
       }
     </script>
     {{ '//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' | script_tag }}
-    {{ '//cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js' | script_tag }}
-    {{ '//unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js' | script_tag }}
     {{ content_for_header }}
   </head>
 
@@ -730,5 +728,8 @@
       <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
       <li id="a11y-selection-message">{{ 'general.accessibility.selection_help' | t }}</li>
     </ul>
+    {{ '//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js' | script_tag }}
+    {{ '//cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js' | script_tag }}
+    {{ '//unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js' | script_tag }}
   </body>
 </html>
