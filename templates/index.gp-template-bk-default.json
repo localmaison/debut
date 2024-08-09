@@ -1,0 +1,156 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "order": [
+    "hero-1",
+    "feature-columns",
+    "feature-row",
+    "collection",
+    "hero-2",
+    "image-bar"
+  ],
+  "sections": {
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "all-products",
+        "grid": 4,
+        "rows": 4,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "feature-columns": {
+      "type": "feature-columns",
+      "blocks": {
+        "feature-columns-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2045.jpg",
+            "title": "LILOU&LILY(リルアンドリリー）",
+            "text": "<p>AGEでファッションをとらえる事無く、ボーダーレスで独創的な洋服を。<br\/>架空の主人公フランス人のLILOUとアメリカ人のLILYが日本での生活の中で新しい価値観を<br\/>探しながら洋服屋をはじめました。<br\/>1から素材を作ってみたり、落書きを刺繍にしてみたり、小さな釜で染めてみたり。<br\/>LILOUとLILYが気に入ったものだけ。<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/lilou-lily"
+          }
+        },
+        "feature-columns-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_5147.jpg",
+            "title": "ALL HOURS(オールアワーズ）",
+            "text": "<p>いつでも着ていたい。なぜか着てしまう。をコンセプトに立ち上げたカジュアルブランド。<br\/>練りに練ったデザインは無くとも、ついつい着てしまう。ずっと着ていたいから、ブランド名は「ALL HOURS」<br\/><\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/allhours"
+          }
+        },
+        "feature-columns-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_5152.jpg",
+            "title": "A VIEW FROM HERE(ア・ビュー・フロム・ヒアー）",
+            "text": "<p>「ここから見える景色」を、本来の素晴らしい景色へと取り戻すために。<br\/>今や失われつつある手仕事や伝統工芸・フェアトレードを中心につくる側が責任をもってモノを作る。<br\/>私たちが目指す思いを託したブランド名、 “A VIEW FROM HERE（アビューフロムヒアー）＝ここからの眺め”。<br\/>心の底から清々しく「こんなにも快適で、ゆるやかです。」と謳うことが出来る世界。<br\/>実際に服を身に着ける人にとっても快適で、心の底からゆるやかな気持ちになれる。<br\/>ゆるやかな生活を、ともに纏う。<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/aviewfromhere"
+          }
+        }
+      },
+      "block_order": [
+        "feature-columns-0",
+        "feature-columns-2",
+        "feature-columns-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left"
+      }
+    },
+    "feature-row": {
+      "type": "feature-row",
+      "disabled": true,
+      "settings": {
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "hero-1": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_3438.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "large",
+        "text_size": "large",
+        "title": "2024AW",
+        "text": "<p>Check out our new collection<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "hero-2": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image-bar": {
+      "type": "image-bar",
+      "blocks": {
+        "image-bar-0": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "image-bar-1": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        },
+        "image-bar-2": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image-bar-0",
+        "image-bar-1",
+        "image-bar-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "medium"
+      }
+    }
+  }
+}
