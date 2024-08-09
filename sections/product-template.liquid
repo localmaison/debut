@@ -328,10 +328,10 @@
                 </div>
               {% endform %}
             {%- when 'description' -%}
-              <div id="cms-wrapper" style="visibility: hidden">
-                <div id="products-cms"></div>
-              </div>
               <div class="product-single__description rte">
+                <div id="cms-wrapper" style="visibility: hidden">
+                  <div id="products-cms"></div>
+                </div>
                 {{ product.description }}
               </div>
             {%- when 'share' -%}
