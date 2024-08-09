@@ -9,6 +9,27 @@
 */
 {
   "sections": {
+    "custom_content_Bg4CLr": {
+      "type": "custom-content",
+      "blocks": {
+        "text_PkjHVw": {
+          "type": "text",
+          "settings": {
+            "title": "夏季休業のお知らせ",
+            "text": "<p>いつもPRIVEMAISONをご利用いただきまして誠にありがとうございます。<\/p><p>オンラインストア営業につきまして、下記の通りお知らせさせていただきます。<\/p><p>【休業日】<\/p><p>2024年8月10日（土）～2024年8月18日（日）<\/p><p><\/p><p>休業期間中に頂きましたご注文やメールでのお問い合わせは2024年8月19日（月）より順次対応となります。<\/p><p>ご不便をおかけいたしますが、何卒ご了承ください。<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "text_PkjHVw"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
     "hero-1": {
       "type": "hero",
       "settings": {
@@ -143,36 +164,15 @@
       "settings": {
         "section_height": "medium"
       }
-    },
-    "custom_content_Bg4CLr": {
-      "type": "custom-content",
-      "blocks": {
-        "text_PkjHVw": {
-          "type": "text",
-          "settings": {
-            "title": "夏季休業のお知らせ",
-            "text": "<p>いつもPRIVEMAISONをご利用いただきまして誠にありがとうございます。<\/p><p>オンラインストア営業につきまして、下記の通りお知らせさせていただきます。<\/p><p>【休業日】<\/p><p>2024年8月10日（土）～2024年8月18日（日）<\/p><p><\/p><p>休業期間中に頂きましたご注文やメールでのお問い合わせは2024年8月19日（月）より順次対応となります。<\/p><p>ご不便をおかけいたしますが、何卒ご了承ください。<\/p>",
-            "width": "100%",
-            "alignment": "center",
-            "align_text": "center"
-          }
-        }
-      },
-      "block_order": [
-        "text_PkjHVw"
-      ],
-      "settings": {
-        "title": ""
-      }
     }
   },
   "order": [
+    "custom_content_Bg4CLr",
     "hero-1",
     "feature-columns",
     "feature-row",
     "collection",
     "hero-2",
-    "image-bar",
-    "custom_content_Bg4CLr"
+    "image-bar"
   ]
 }
