@@ -8,28 +8,15 @@
 * ------------------------------------------------------------
 */
 {
+  "order": [
+    "product-recommendations",
+    "main",
+    "product-back-to-collection"
+  ],
   "sections": {
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "heading": "You may also like",
-        "show_vendor": false
-      }
-    },
     "main": {
       "type": "product-template",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -40,8 +27,18 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
           "settings": {
           }
         }
@@ -67,11 +64,14 @@
       "type": "product-back-to-collection",
       "settings": {
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "show_vendor": false
+      }
     }
-  },
-  "order": [
-    "product-recommendations",
-    "main",
-    "product-back-to-collection"
-  ]
+  }
 }
