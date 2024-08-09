@@ -329,9 +329,6 @@
               {% endform %}
             {%- when 'description' -%}
               <div class="product-single__description rte">
-                <div id="cms-wrapper" style="visibility: hidden">
-                  <div id="products-cms"></div>
-                </div>
                 {{ product.description }}
               </div>
             {%- when 'share' -%}
@@ -346,6 +343,9 @@
               {{ block.settings.custom_liquid }}
           {% endcase %}
         {% endfor %}
+        <div id="cms-wrapper" style="visibility: hidden">
+          <div id="products-cms"></div>
+        </div>
       </div>
 
       {%- comment -%}
