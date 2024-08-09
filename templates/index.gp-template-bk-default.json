@@ -8,7 +8,27 @@
 * ------------------------------------------------------------
 */
 {
+  "order": [
+    "custom_content_Bg4CLr",
+    "hero-1",
+    "feature-columns",
+    "feature-row",
+    "collection",
+    "hero-2",
+    "image-bar"
+  ],
   "sections": {
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "all-products",
+        "grid": 4,
+        "rows": 4,
+        "show_vendor": false,
+        "show_view_all": true
+      }
+    },
     "custom_content_Bg4CLr": {
       "type": "custom-content",
       "blocks": {
@@ -30,20 +50,6 @@
         "title": ""
       }
     },
-    "hero-1": {
-      "type": "hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3438.jpg",
-        "alignment": "center",
-        "hero_layout": "full_width",
-        "hero_size": "large",
-        "text_size": "large",
-        "title": "2024AW",
-        "text": "<p>Check out our new collection<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "feature-columns": {
       "type": "feature-columns",
       "blocks": {
@@ -58,17 +64,6 @@
             "button_link": "shopify:\/\/collections\/lilou-lily"
           }
         },
-        "feature-columns-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/IMG_5152.jpg",
-            "title": "A VIEW FROM HERE(ア・ビュー・フロム・ヒアー）",
-            "text": "<p>「ここから見える景色」を、本来の素晴らしい景色へと取り戻すために。<br\/>今や失われつつある手仕事や伝統工芸・フェアトレードを中心につくる側が責任をもってモノを作る。<br\/>私たちが目指す思いを託したブランド名、 “A VIEW FROM HERE（アビューフロムヒアー）＝ここからの眺め”。<br\/>心の底から清々しく「こんなにも快適で、ゆるやかです。」と謳うことが出来る世界。<br\/>実際に服を身に着ける人にとっても快適で、心の底からゆるやかな気持ちになれる。<br\/>ゆるやかな生活を、ともに纏う。<\/p>",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/aviewfromhere"
-          }
-        },
         "feature-columns-1": {
           "type": "text_block",
           "settings": {
@@ -78,6 +73,17 @@
             "text": "<p>いつでも着ていたい。なぜか着てしまう。をコンセプトに立ち上げたカジュアルブランド。<br\/>練りに練ったデザインは無くとも、ついつい着てしまう。ずっと着ていたいから、ブランド名は「ALL HOURS」<br\/><\/p>",
             "button_label": "",
             "button_link": "shopify:\/\/collections\/allhours"
+          }
+        },
+        "feature-columns-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_5152.jpg",
+            "title": "A VIEW FROM HERE(ア・ビュー・フロム・ヒアー）",
+            "text": "<p>「ここから見える景色」を、本来の素晴らしい景色へと取り戻すために。<br\/>今や失われつつある手仕事や伝統工芸・フェアトレードを中心につくる側が責任をもってモノを作る。<br\/>私たちが目指す思いを託したブランド名、 “A VIEW FROM HERE（アビューフロムヒアー）＝ここからの眺め”。<br\/>心の底から清々しく「こんなにも快適で、ゆるやかです。」と謳うことが出来る世界。<br\/>実際に服を身に着ける人にとっても快適で、心の底からゆるやかな気持ちになれる。<br\/>ゆるやかな生活を、ともに纏う。<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/aviewfromhere"
           }
         }
       },
@@ -102,15 +108,18 @@
         "button_link": ""
       }
     },
-    "collection": {
-      "type": "collection",
+    "hero-1": {
+      "type": "hero",
       "settings": {
-        "title": "Featured collection",
-        "collection": "all-products",
-        "grid": 4,
-        "rows": 4,
-        "show_vendor": false,
-        "show_view_all": true
+        "image": "shopify:\/\/shop_images\/IMG_3438.jpg",
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "large",
+        "text_size": "large",
+        "title": "2024AW",
+        "text": "<p>Check out our new collection<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "hero-2": {
@@ -165,14 +174,5 @@
         "section_height": "medium"
       }
     }
-  },
-  "order": [
-    "custom_content_Bg4CLr",
-    "hero-1",
-    "feature-columns",
-    "feature-row",
-    "collection",
-    "hero-2",
-    "image-bar"
-  ]
+  }
 }
