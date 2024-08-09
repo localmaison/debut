@@ -13,6 +13,7 @@
     "type_header_base_size": 21,
     "type_base_font": "sans-serif",
     "type_base_size": 14,
+    "currency_code_enabled": false,
     "sections": {
       "header": {
         "type": "header",
